@@ -1,0 +1,48 @@
+html{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+div{
+    height: 100%;
+}
+.full{
+    background-image: url(../img/pexels-anthony-shkraba-5467573.jpg);
+
+	background-position:center; 
+	background-repeat:no-repeat; 
+	background-size:cover; 
+    padding: 10%;
+	width:200px; 
+    width: 100%;
+    color: #f60d0d;
+    opacity: 0.6;
+}
+h1{
+    font-size: 5em;
+}
+.full p{
+    font-size: 2em;
+}
+
+.left{
+    border: 1px solid black;
+    margin-top: -5%;
+    padding: 20% 5%;
+    background-color: white;
+    width: 40%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.right{
+    border: 1px solid black;
+    margin-top: -5%;
+    padding: 20% 5%;
+    background-color: white;
+    width: 40%;
+    overflow: hidden;
+    z-index: 2;
+}
