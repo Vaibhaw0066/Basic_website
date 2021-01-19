@@ -52,6 +52,16 @@ header .container .navbar .menu .menu-item {
 header .container .navbar .menu .menu-item a {
   display: block;
   color: black;
+  box-shadow: 10px 10px 10px white;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+
+header .container .navbar .is-active .menu .menu-item a {
+  display: block;
+  color: white;
+    background-color: white;
+  box-shadow: 10px 10px 10px white;
   text-decoration: none;
   padding: 10px 25px;
 }
@@ -86,7 +96,8 @@ header .container .navbar .menu .menu-item.has-sub-menu .sub-menu {
   transition: 0.4s ease-out;
   min-width: 100%;
   width: max-content;
-  background-color: #F8F9FB;
+  background-color: blueviolet;
+
   list-style-type: none;
 }
 header .container .navbar .menu .menu-item.has-sub-menu .sub-menu .menu-item {
@@ -103,7 +114,7 @@ header .container .navbar .menu .menu-item.has-sub-menu:hover > .sub-menu .sub-m
 }
 header .container .navbar .close-menu {
   display: none;
-  color: black;
+  color: white;
   text-decoration: none;
   text-align: center;
 }
